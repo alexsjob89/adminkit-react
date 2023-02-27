@@ -48,18 +48,22 @@ li {
     color: black;
     position: absolute;
     top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 40%;
+    /* transform: translate(-50%, -50%); */
     line-height: 1.4;
     padding: 14px 28px;
     border-radius: 3px;
-    background: white;
+    background-color: white;
     max-width: 600px;
     min-width: 300px;
     justify-content: left;
     text-align: left;
     border-radius: 10px;
     box-shadow: 0px 0px 9px -1px rgba(0, 0, 0, 0.74);
+}
+
+.modal {
+    background-color: white;
 }
 
 .modal,
@@ -74,7 +78,7 @@ li {
 }
 
 .overlay {
-    backdrop-filter: blur(3px);
+    background-color: grey;
 }
 
 .tag-guid {

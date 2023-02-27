@@ -1,0 +1,76 @@
+* {
+    list-style-type: none;
+}
+
+body {
+    outline: none;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.layouts {
+    position: absolute;
+    align-items: center;
+    display: flex;
+    gap: 3.5rem;
+    font-size: 20px;
+    padding-left: 20rem;
+    width: 100%;
+    height: 3rem;
+    box-shadow: 0px 6px 9px -4px rgba(0, 0, 0, 0.40);
+}
+
+.barsList {
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 30px;
+    width: 69rem;
+    height: 12rem;
+    background-color: rgb(255, 255, 255, 0.6);
+}
+
+.brasLbox {
+    display: inline-block;
+    /* position: relative; */
+    /* border: 1px solid black; */
+    width: 10rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.listItem {
+    /* border-bottom: 1px solid rgb(109, 109, 109); */
+    width: 100%;
+    margin: 0%;
+    padding: 5px 0px;
+    font-size: 15px;
+}
+
+.brasSpan {
+    color: red;
+}
+
+.sports::after {
+    position: absolute;
+    top: 0.5rem;
+    background: red;
+    color: white;
+    padding: 2px;
+    border-radius: 4px;
+    content: "HOT";
+    font-size: 13px;
+    margin-left: 0.5rem;
+}
+
+.boxed::after {
+    position: absolute;
+    top: 0.5rem;
+    background: blue;
+    color: white;
+    padding: 2px;
+    border-radius: 4px;
+    content: "NEW";
+    font-size: 13px;
+    margin-left: 0.5rem;
+}
