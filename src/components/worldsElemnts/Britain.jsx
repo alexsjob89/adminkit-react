@@ -1,4 +1,3 @@
-import img1 from "";
 import React from "react";
 
 function Britain() {
