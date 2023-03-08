@@ -5,7 +5,7 @@
 body {
     outline: none;
     margin: 0%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .layouts {
@@ -18,6 +18,7 @@ body {
     width: 100%;
     height: 3rem;
     box-shadow: 0px 6px 9px -4px rgba(0, 0, 0, 0.40);
+    z-index: 2;
 }
 
 .barsList {
@@ -26,7 +27,8 @@ body {
     top: 30px;
     width: 69rem;
     height: 12rem;
-    background-color: rgb(255, 255, 255, 0.6);
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
 }
 
 .brasLbox {

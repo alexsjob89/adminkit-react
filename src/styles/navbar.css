@@ -1,17 +1,14 @@
-body {
+/* body {
     outline: none;
     margin: 0%;
-}
-
-body.active-modal {
-    /* overflow-y: hidden; */
-}
+} */
 
 .navbar {
     color: white;
     height: 5rem;
     display: flex;
     background-color: black;
+    z-index: 1;
 }
 
 .navlist {

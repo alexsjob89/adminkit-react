@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+}
+
+.item-content {
+    display: grid;
+    grid-template-columns: 40rem auto 10rem 10rem;
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 80%;
+    height: 35rem;
+    left: 10%;
+    top: 10rem;
+    color: white;
+}
+
+.childItems {
+    /* border: 1px solid rgb(240, 0, 0); */
+    margin: 5px;
+    text-align: start;
+    padding-top: 10rem;
+    justify-content: baseline;
+}
+
+.oneImg {
+    background-image: url('../projectPictures/black-watch.jpg');
+    background-size: cover;
+    grid-row: 1 /4;
+}
+
+.twoImg {
+    background-image: url('../projectPictures/girl-yellow-folwers.jpg');
+    background-size: cover;
+    grid-column: 2 / 5;
+}
+
+.treeImg {
+    background-image: url('../projectPictures/glass.jpg');
+    background-size: cover;
+    grid-column: 2 / 2;
+}
+
+.fourImg {
+    background-image: url('../projectPictures/photo-1508431813569-560d91b7e10cghffhffh.jpg');
+    background-size: cover;
+    grid-column: 3 / 5;
+}
